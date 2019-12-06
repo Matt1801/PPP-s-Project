@@ -14,37 +14,37 @@
 
 
 ************************************************************
-#menu-deroulant, #menu-deroulant ul {
+.menu-deroulant, #menu-deroulant ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-#menu-deroulant {
+.menu-deroulant {
 /* on met sur la gauche le menu dans la page */
     text-align: left;
 }
-#menu-deroulant li {
+.menu-deroulant li {
 /* on place les liens du menu horizontalement */
     display: inline-block;
 }
-#menu-deroulant ul li {
+.menu-deroulant ul li {
 /* on enlève ce comportement pour les liens du sous menu */
     display: inherit;
 }
-#menu-deroulant a {
+.menu-deroulant a {
     text-decoration: none;
     display: block;
 	color:rgb(238, 176, 32);
 }
-#menu-deroulant ul {
+.menu-deroulant ul {
     position: absolute;
 /* on cache les sous menus complètement sur la gauche */
     left: -999em;
     text-align: left;
     z-index: 1000;
 }
-#menu-deroulant li:hover ul {
+.menu-deroulant li:hover ul {
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
-} 
+}
 /* ne marche pas for now */
