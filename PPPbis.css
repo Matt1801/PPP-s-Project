@@ -1,0 +1,6 @@
+#corps{ display:flex; }
+
+header{ display:flex; }
+header nav{ padding-right:40em}
+header li{ display: inline;
+	list-style: none; }
