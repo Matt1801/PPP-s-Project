@@ -4,6 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>PPP's Project</title>
 	<link rel="stylesheet" type="text/css" href="PPP.css">
+	<link rel="stylesheet" type="text/css" href="PPPbis.css">
 </head>
 <header>
 	<nav>
@@ -13,7 +14,7 @@
 			</span>
 				<li><a href="http://www.univ-orleans.fr/fr/accessibilite">Accessibilité</a></li>
 	</nav>
-	<nav class=right>
+	<nav class="right">
 		<ul>
 			<li><a href="http://ent.univ-orleans.fr/render.userLayoutRootNode.uP" target="_blank">ENT</a></li>
 			<li><a href="http://www.univ-orleans.fr/fr/annuaire" target="_blank">Annuaire</a></li>
@@ -71,14 +72,37 @@
 		</ul>
 	</nav>
 </section>
-<section>
+<section id="corps">
 	<aside>
 		<h1>Le Aside Pour rediriger vers une license choisi et avec le script de test des moyennes de l'élèves</h1>
 		<ul>
 			<li>License Informatique</li>
 			<li>License Pro</li>
 			<li>
-				<form><input type="button" name="testMoyenne" value="Tester vos capacités d'intégration!!"></form>
+				<form><input type="button" name="testMoyenne" value="Tester vos capacités d'intégration!!" accesskey="s"></form>
 			</li>
 		</ul>
 	</aside>
+  <div>
+		<h2>La licence pour aller plus loin</h2>
+		<p>Les titulaires de la licence poursuivent majoritairement leurs études (master, école spécialisée, grande école...)
+		 car c'est à bac + 5 que les universitaires sont vraiment attendus sur le marché du travail. Ils se dirigent ensuite
+		 vers les métiers de l'exploitation, du développement, de la maintenance, de la programmation, de la sécurité,
+		 de l'administration des systèmes et réseaux, de la formation, de l'enseignement…</p>
+	</div>
+</section>
+<script type="text/javascript">
+var btn = document.querySelector('input');
+btn.addEventListener('click', updateBtn);
+
+function updateBtn() {
+let moyDocNum=prompt("Entrez votre moyenne de Document Numérique :");
+let moyAlgo=prompt("Entrez votre moyenne d'Algorithmique :");
+let moyBD=prompt("Entrez votre moyenne de Base de donnée(s) :");
+let moyPython=prompt("Entrez votre moyenne de Python :");
+a=Number(moyBD)+Number(moyAlgo)+Number(moyDocNum)+Number(moyPython);
+moy=a/4;
+alert(moy);
+}
+</script>
+</body>
