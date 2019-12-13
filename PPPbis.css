@@ -1,6 +1,35 @@
-#corps{ display:flex; }
 
-header{ display:flex; }
-header nav{ padding-right:40em}
-header li{ display: inline;
-	list-style: none; }
+#menu-accordeon li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+
+#menu-accordeon li:hover li {
+  max-height: 15em;
+}
+#menu-accordeon{
+  display:flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+#menu-accordeon a {
+  padding: 8px 0;
+  font-size:0.8em
+}
+#menu-accordeon {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+}
+#menu-accordeon ul {
+  padding:0;
+  margin:0;
+
+}
