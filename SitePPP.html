@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>PPP's Project</title>
-	<link rel="stylesheet" type="text/css" href="PPP.css">
+	<!-- <link rel="stylesheet" type="text/css" href="PPP.css"> -->
 	<link rel="stylesheet" type="text/css" href="PPPbis.css">
 </head>
 <header>
@@ -22,53 +22,68 @@
 			<li><a href="http://www.univ-orleans.fr/fr/culture">Culture</a></li>
 		</ul>
 	</nav>
+	<section class="imgrecherche">
+	<img src="Logouniversité.png" alt="">
+	<p class="slogan"><i>Source de talents, depuis 1306</i></p>
+	<input class="champ" type="text" placeholder="Rechercher sur ce site"/>
+	<input id="search-btn" type="submit" value="Rechercher" />
+	<a href="https://fr-fr.facebook.com/iutorleansofficiel/%22%3EFacebook"></a>
+	<SELECT name="nom" size="1">
+		<OPTION>FR
+		<OPTION>EN
+		<OPTION>ES
+	</SELECT>
+</section>
 </header>
 <section>
 	<nav>
-		<ul class="menu-deroulant">
-			<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/bienvenue-liut-dorleans">Découvrir</a></li>
-				<ul>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/bienvenue-liut-dorleans">Bienvenue à l'IUT'O</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/decouvrir/domaines-de-formation">Domaines de formations</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/decouvrir/nous-contacter">Nous contacter</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/decouvrir/venir-liut">Venir à l'IUT</a></li>
-				</ul>
-
-			<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation">Formation</a></li>
-				<ul>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/chimie">Chimie</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/gte">Energie & Thermique</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/gea">Gestion & Administration</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/informatique">Informatique</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/qlio">Qualite & Logistique Industrielle</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/gmp">Mécanique & Productique</a></li>
-				</ul>
-
-			<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/candidater-sinscrire">Candidater & s'inscrire</a></li>
-				<ul>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/candidater-sinscrire/candidater">Candidater</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/candidater-sinscrire/sinscrire">S'inscrire</a></li>
-				</ul>
-
-			<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises">Entreprises</a></li>
-				<ul>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/recruter-un-stagiaire">Recruter un stagiaire</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/recruter-un-apprenti">Recruter un apprenti</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/utiliser-du-materiel-innovant">Utiliser du matériel innovant</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/deposer-une-offre-de-stage-ou-demploi">Déposer une offre de stage ou d'emploi</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/verser-la-taxe-dapprentissage">Verser la taxe d'apprentissage</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/conventions-partenariats">Conventions & Partenariats</a></li>
-				</ul>
-			<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/international">International</a></li>
-				<ul>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/international/partir-letranger">Partir à l'étranger</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/international/venir-etudier-liuto">Venir étudier à l'IUT'O</a></li>
-				</ul>
-			<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/vie-etudiante">Calendrier et dates de rentrées</a></li>
-				<ul>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/vie-etudiante/calendrier-et-dates-de-rentrees">Calendrier et dates de rentrées</a></li>
-					<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/vie-etudiante/integrer-une-association-de-liuto">Intégrer une association de l'IUTO</a></li>
-				</ul>
+		<ul id="menu-accordeon">
+								 <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/bienvenue-liut-dorleans">Découvrir</a>
+				           <ul>
+				             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/bienvenue-liut-dorleans">Bienvenue à l'IUT'O</a></li>
+				             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/decouvrir/domaines-de-formation">Domaines de formations</a></li>
+				             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/decouvrir/nous-contacter">Nous contacter</a></li>
+				             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/decouvrir/venir-liut">Venir à l'IUT</a></li>
+				           </ul>
+								</li>
+								<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation">Formation</a>
+				          <ul>
+				            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/chimie">Chimie</a></li>
+				            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/gte">Energie & Thermique</a></li>
+				            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/gea">Gestion & Administration</a></li>
+				            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/informatique">Informatique</a></li>
+				            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/qlio">Qualite & Logistique Industrielle</a></li>
+				            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/formation/gmp">Mécanique & Productique</a></li>
+				          </ul>
+							 </li>
+							 <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/candidater-sinscrire">Candidater & s'inscrire</a>
+			           <ul>
+			             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/candidater-sinscrire/candidater">Candidater</a></li>
+			             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/candidater-sinscrire/sinscrire">S'inscrire</a></li>
+			           </ul>
+							</li>
+							<li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises">Entreprises</a>
+								<ul>
+			            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/recruter-un-stagiaire">Recruter un stagiaire</a></li>
+			            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/recruter-un-apprenti">Recruter un apprenti</a></li>
+			            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/utiliser-du-materiel-innovant">Utiliser du matériel innovant</a></li>
+			            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/deposer-une-offre-de-stage-ou-demploi">Déposer une offre de stage ou d'emploi</a></li>
+			            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/verser-la-taxe-dapprentissage">Verser la taxe d'apprentissage</a></li>
+			            <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/entreprises/conventions-partenariats">Conventions & Partenariats</a></li>
+			          </ul>
+						 </li>
+								 <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/international">International</a>
+						           <ul>
+						             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/international/partir-letranger">Partir à l'étranger</a></li>
+						             <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/international/venir-etudier-liuto">Venir étudier à l'IUT'O</a></li>
+						         </ul>
+								 </li>
+								 <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/vie-etudiante">Calendrier et dates de rentrées</a>
+											 <ul>
+												 <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/vie-etudiante/calendrier-et-dates-de-rentrees">Calendrier et dates de rentrées</a></li>
+												 <li><a href="http://www.univ-orleans.fr/fr/iut-orleans/vie-etudiante/integrer-une-association-de-liuto">Intégrer une association de l'IUTO</a></li>
+										 </ul>
+									</li>
 		</ul>
 	</nav>
 </section>
@@ -76,10 +91,10 @@
 	<aside>
 		<h1>Le Aside Pour rediriger vers une license choisi et avec le script de test des moyennes de l'élèves</h1>
 		<ul>
-			<li>License Informatique</li>
-			<li>License Pro</li>
+			<li>Licence Informatique</li>
+			<li>Licence Pro</li>
 			<li>
-				<form><input type="button" name="testMoyenne" value="Tester vos capacités d'intégration!!" accesskey="s"></form>
+				<form id="bouton"><input type="button" name="testMoyenne" value="Tester vos capacités d'intégration!!" accesskey="s"></form>
 			</li>
 		</ul>
 	</aside>
@@ -92,7 +107,7 @@
 	</div>
 </section>
 <script type="text/javascript">
-var btn = document.querySelector('input');
+var btn = document.querySelector('#bouton');
 btn.addEventListener('click', updateBtn);
 
 function updateBtn() {
