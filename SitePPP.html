@@ -62,6 +62,10 @@ def ListeDesPagesDeLicences(BasePagesLicences):
         ListPages.append(page)
     return ListPages
 ListPages=ListeDesPagesDeLicences(BasePagesLicences)
+def InfosDeLaPage(BasePagesLicences,pageVoulu):
+	res=[]
+	for (Page,Infos) in BasePagesLicences():
+		
 
 Template Pages Licence
 <!DOCTYPE html>
@@ -360,19 +364,9 @@ Template Acceuil
 	</aside>
   <div>
 		<h2>La licence pour aller plus loin</h2>
-		<h3>Informations de premiers abords</h3>
-		<p>Les titulaires de la licence poursuivent majoritairement leurs études (master, école spécialisée, grande école...)
-		 car c'est à bac + 5 que les universitaires sont vraiment attendus sur le marché du travail. Ils se dirigent ensuite
-		 vers les métiers de l'exploitation, du développement, de la maintenance, de la programmation, de la sécurité,
-		 de l'administration des systèmes et réseaux, de la formation, de l'enseignement…</p>
-		 <h3>Conditions d’admission</h3>
-		 <p>En L2 ou L3 (admission sur dossier) : les étudiants ayant déjà effectué 1 ou 2 années d'études supérieures (classe prépa scientifique, DUT ou éventuellement BTS dans un domaine proche).
-		 </p>
-		 <ul>
-		 	<li>Disposer de compétences scientifiques</li>
-			<li>Disposer de compétences en communication</li>
-			<li>Disposer de compétences méthodologiques et comportementales</li>
-		</ul>
+		<h3>Informations générale sur la licence</h3>
+		<p>La licence est un diplôme universitaire qui est reçu suite à trois années d'études universitaires. Selon la spécialisation l'organisation des cours et de la formation varie. Globalement, une année d'étude universitaire pour la licence est divisé en deux semestres qui peuvent se terminer par des partielles ( des examens qui associés au controle continu permettent d'évaluer si le semestre est obtenu ) ou alors le semestre est déterminé par le controle continu seulement. Ce mode de fonctionnement n'est pas sans rappeller celui d'un IUT. Chaque licence s'inscrit dans un « domaine », puis dans une « mention » et, dans certains cas, dans une « spécialité ».
+	  </p>
 	</div>
 </section>
 <script type="text/javascript">
