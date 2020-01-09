@@ -34,7 +34,8 @@ creer_html("./PPP_template.html", "./page_gen/Acceuil.html",
 for pages in ListPages:
     creer_html("./PPPLicence_template.html", "./page_gen/"+pages+".html",
             ListPages=ListPages,
-            PageAct=pages
+            PageAct=pages,
+			ListInfo=InfosDeLaPage(BasePagesLicences,pages
             )
 Modele
 BasePagesLicences={"Licence1":("TupleDInfos"),"Licence2":("TupleDInfos"),"Licence3":("TupleDInfos")}
@@ -64,8 +65,14 @@ def ListeDesPagesDeLicences(BasePagesLicences):
 ListPages=ListeDesPagesDeLicences(BasePagesLicences)
 def InfosDeLaPage(BasePagesLicences,pageVoulu):
 	res=[]
+	cpt=0
 	for (Page,Infos) in BasePagesLicences():
-		
+		if Page==pageVoulu:
+			while res<len(Page):
+				res.append(Infos[cpt],Infos[Cpt+1]
+				cpt+=2
+			return res
+
 
 Template Pages Licence
 <!DOCTYPE html>
